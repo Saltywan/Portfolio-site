@@ -19,7 +19,7 @@
 
       /* HEADER */
       header {
-        background-color: rgba(37, 115, 141, 0.95);
+        background-color: rgba(37, 115, 141, 0.75);
         color: white;
         z-index: 5;
         display: flex;
@@ -28,6 +28,8 @@
         position: fixed;
         width: 100%;
         box-shadow: 0px 0px 15px 0px black;
+        backdrop-filter: blur(10px);
+
       }
 
       header nav {

@@ -41,7 +41,7 @@ setTimeout(function() {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.clientHeight;
 
-      if (scrollY+250 >= sectionTop) {
+      if (scrollY+220 >= sectionTop) {
         current = section.getAttribute('id');
       }
     });
