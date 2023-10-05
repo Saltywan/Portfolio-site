@@ -5,7 +5,7 @@ AOS.init({
     mirror: false
   });
 
-
+let offset = 0;
 let mybutton = document.getElementById("backtoTop");
 
 // When the user scrolls down 20px from the top of the document, show the button
@@ -40,8 +40,10 @@ setTimeout(function() {
     sections.forEach(section => {
       const sectionTop = section.offsetTop;
       const sectionHeight = section.clientHeight;
-
-      if (scrollY+220 >= sectionTop) {
+      if (window.innerWidth < 768) {
+        offset = 100;
+      }
+      if (scrollY+220+offset >= sectionTop) {
         current = section.getAttribute('id');
       }
     });
