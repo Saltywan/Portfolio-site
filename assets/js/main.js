@@ -1,7 +1,7 @@
 AOS.init({
-    duration: 500,
+    duration: 250,
     easing: 'ease-out', 
-    once: false,
+    once: true,
     mirror: false
   });
 
