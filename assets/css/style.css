@@ -55,7 +55,7 @@ header {
 header nav {
     display: flex;
     font-size: 1.25rem;
-    margin-right: 20dvw;
+    margin-right: 20svw;
     /* flex: 5; */
 }
 
@@ -82,7 +82,7 @@ header a:hover {
     /* background-position: center; */
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100dvh;
+    height: 100svh;
     width: 100%;
 }
 
@@ -91,7 +91,7 @@ header a:hover {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    height: 100dvh;
+    height: 100svh;
     width: 100%;
 }
 
@@ -179,7 +179,7 @@ main {
 
 main section {
     /* pad left right */
-    padding: 8dvh 10dvw 0 10dvw;
+    padding: 8svh 10svw 0 10svw;
     display: flex;
     justify-content: start;
     /* text-align: left; */
@@ -205,7 +205,7 @@ main section {
 .about-content h1 {
     font-size: 2.5rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -238,7 +238,7 @@ main section {
 .experience-content h1 {
     font-size: 2.5rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -249,7 +249,7 @@ main section {
     justify-content: start;
     align-items: start;
     width: 100%;
-    padding: 2dvh 0;
+    padding: 2svh 0;
     flex-direction: column;
 }
 
@@ -335,7 +335,7 @@ main section {
 .skills-content h1 {
     font-size: 2.5rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -346,7 +346,7 @@ main section {
     justify-content: start;
     align-items: start;
     width: 100%;
-    padding: 1dvh 0;
+    padding: 1svh 0;
     flex-direction: column;
 }
 
@@ -361,7 +361,7 @@ main section {
 .skills-content-box h2 {
     font-size: 1.5rem;
     margin: 0;
-    padding: 0 0 1dvh 0;
+    padding: 0 0 1svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -380,7 +380,7 @@ main section {
     display: flex;
     justify-content: start;
     align-items: center;
-    padding-bottom: 3dvh;
+    padding-bottom: 3svh;
 }
 
 .education-content {
@@ -393,7 +393,7 @@ main section {
 .education-content h1 {
     font-size: 2.5rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -426,7 +426,7 @@ main section {
     justify-content: start;
     align-items: start;
     width: 100%;
-    padding: 2dvh 0;
+    padding: 2svh 0;
     flex-direction: column;
 }
 
@@ -441,7 +441,7 @@ main section {
 .education-content-box h2 {
     font-size: 1.25rem;
     margin: 0;
-    padding: 0 0 1dvh 0;
+    padding: 0 0 1svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -450,7 +450,7 @@ main section {
 .education-content-box p {
     font-size: 1.15rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -475,7 +475,7 @@ main section {
 .contact-content h1 {
     font-size: 2.5rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -486,7 +486,7 @@ main section {
     justify-content: start;
     align-items: start;
     width: 100%;
-    padding: 2dvh 0;
+    padding: 2svh 0;
     flex-direction: column;
 }
 
@@ -501,7 +501,7 @@ main section {
 .contact-content-box h2 {
     font-size: 1.5rem;
     margin: 0;
-    padding: 0 0 2dvh 0;
+    padding: 0 0 2svh 0;
     color: white;
     text-align: start;
     width: 100%;
@@ -518,11 +518,11 @@ footer {
     justify-content: center;
     align-items: center;
     /* position: absolute; */
-    height: 20dvh;
+    height: 20svh;
     width: 100%;
     bottom: 0;
     box-shadow: 0px 0px 15px 0px black;
-    padding: 5dvh 0 1dvh 0;
+    padding: 5svh 0 1svh 0;
 }
 
 .footer-content {
@@ -598,7 +598,7 @@ footer p {
     }
 
     main section {
-        padding: 5dvh 5dvw 0 5dvw;
+        padding: 5svh 5svw 0 5svw;
     }
 
     .about-content h1 {
@@ -696,7 +696,7 @@ footer p {
     }
 
     footer {
-        padding: 1dvh 0 1dvh 0;
+        padding: 1svh 0 1svh 0;
     }
 
     footer p {
@@ -747,7 +747,7 @@ footer p {
     }
 
     main section {
-        padding: 5dvh 5dvw 0 5dvw;
+        padding: 5svh 5svw 0 5svw;
     }
 
     .about-content h1 {
@@ -881,7 +881,7 @@ footer p {
         }
 
         main section {
-        padding: 5dvh 5dvw 0 5dvw;
+        padding: 5svh 5svw 0 5svw;
         }
 
         .about-content h1 {
